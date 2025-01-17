@@ -1,0 +1,212 @@
+/* Genel Ayarlar */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Menü */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 50px;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #5f4b8b;
+}
+
+.menu .sol-menu a {
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+}
+
+/* Yeni eklenen yazı stili */
+.arama-yazisi {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.arama-yazisi span {
+  font-size: 20px;
+  color: #460dcd;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.arama-yazisi span:hover {
+  color: #0c75e6;
+}
+
+/* Kapak */
+.kapak {
+  background: url('https://i.pinimg.com/originals/e7/5b/10/e75b10cfa3456f228a2da876a6022d46.jpg') no-repeat center center/cover;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  padding-top: 120px;
+  transition: background-color 0.3s ease;
+}
+
+.kapak .profil-resmi img {
+  width: 350px;
+  border-radius: 50%;
+  border: 5px solid #10296c;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.kapak .profil-resmi img:hover {
+  transform: scale(1.1);
+}
+
+.kapak-baslik {
+  font-size: 40px;
+  margin: 15px 0 5px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.kapak-altbaslik {
+  font-size: 18px;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* İçerik */
+.icerik {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Sosyal Medya */
+.sosyal-medya {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sosyal-medya h2 {
+  font-size: 24px;
+  color: #460dcd;
+  margin-bottom: 15px;
+}
+
+.sosyal-medya ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sosyal-medya ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sosyal-medya ul li a {
+  color: #007bff;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.sosyal-medya ul li a:hover {
+  color: #0c75e6;
+}
+
+.sosyal-medya ul li img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+  margin-right: 10px;
+}
+
+.sosyal-medya ul li img:hover {
+  transform: scale(1.2);
+}
+
+/* İletişim Bilgileri */
+.iletisim-bilgileri {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.iletisim-bilgileri h2 {
+  font-size: 24px;
+  color: #460dcd;
+  margin-bottom: 15px;
+}
+
+.iletisim-bilgileri ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.iletisim-bilgileri ul li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.iletisim-bilgileri ul li img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.iletisim-bilgileri ul li img:hover {
+  transform: scale(1.2);
+}
+
+.iletisim-bilgileri ul li strong {
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3d11c0;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 0;
+}
